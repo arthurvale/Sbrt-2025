@@ -10,5 +10,5 @@
 
 ## Arquivos
 
-- **Dataset**: 👉 [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition/data) 👈
+- **Dataset**: 
 - **Artigo de origem do conjunto de dados**: 
