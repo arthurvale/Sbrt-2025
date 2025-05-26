@@ -13,3 +13,11 @@ Repositório oficial do artigo "Classificação de Feixes Baseada em Métricas d
 - **EDA_Feature_Selection_sbrt_2025.ipynb**: exploração inicial do banco de dados e seleção de atributos relevantes.
 - **Agrupamento_sbrt_2025.ipynb**: agrupamento realizado com o intuito de encontrar grupos com velocidades bem definidas.
 - **Treinamento_modelos_sbrt_2025.ipynb**: ajsute de hiperparâmetros e treinamento dos melhores modelos para cada cenário.
+
+# Principais Resultado
+
+| Velocidade(Km/h)| Modelo | Macro-Recall (%) | Tempo Predição (ms) |
+|-----------------|--------|------------------|---------------------|
+| 0 ≤ v < 10      | ESS    | 93.2 ± 1.4       | 4.7 ± 0.3           |
+| 10 ≤ v < 40     | ESS    | 91.8 ± 1.7       | 5.1 ± 0.4           |
+| v ≥ 40          | RF     | 89.4 ± 2.1       | 3.9 ± 0.2           |
