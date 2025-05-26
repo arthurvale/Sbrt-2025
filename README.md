@@ -16,8 +16,8 @@ Repositório oficial do artigo "Classificação de Feixes Baseada em Métricas d
 
 # Principais Resultado
 
-| Velocidade(Km/h)| Modelo | Macro-Recall (%) | Tempo Predição (ms) |
-|-----------------|--------|------------------|---------------------|
-| 0 ≤ v < 10      | ESS    | 93.2 ± 1.4       | 4.7 ± 0.3           |
-| 10 ≤ v < 40     | ESS    | 91.8 ± 1.7       | 5.1 ± 0.4           |
-| v ≥ 40          | RF     | 89.4 ± 2.1       | 3.9 ± 0.2           |
+| Velocidade(Km/h)| Modelo       | Macro-Recall (%) | Tempo Predição (ms) |
+|-----------------|--------------|------------------|---------------------|
+| 0 ≤ v < 10      | Ensemble     | 93.2 ± 1.4       | 4.7 ± 0.3           |
+| 10 ≤ v < 40     | Ensemble     | 91.8 ± 1.7       | 5.1 ± 0.4           |
+| v ≥ 40          | Random Forest| 89.4 ± 2.1       | 3.9 ± 0.2           |
